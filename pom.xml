@@ -18,6 +18,13 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0enfjeyclicq-artifactory-primary-0-releases</name>
+        <url>https://devopsmavenart.jfrog.io/artifactory/default-libs-release</url>
+    </repository>
+</distributionManagement>
   <build>
     <pluginManagement>
       <plugins>
